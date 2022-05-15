@@ -6,7 +6,7 @@
 
         If (TextBox1.Text <> "" And TextBox3.Text <> "" And TextBox5.Text <> "" And DateTimePicker1.Text <> "" And ComboBox1.Text <> "" And TextBox5.Text = TextBox6.Text) Then
 
-            User(Login.taille) = New Data(TextBox1.Text, TextBox3.Text, TextBox5.Text, DateTimePicker1.Text, TextBox5.Text)
+            User(Login.taille) = New Data(TextBox1.Text, TextBox3.Text, comboBox1.Text, DateTimePicker1.Text, TextBox5.Text)
             MessageBox.Show(User(0).Nom)
             Login.taille += 1
 
